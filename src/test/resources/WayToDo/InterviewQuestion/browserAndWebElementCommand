@@ -1,0 +1,71 @@
+
+1.	What is the super interface of selenium?
+Search context is the super interface of WebDriver interface in selenium WebDriver API.
+
+2.	How many methods are in the super interface and what are they?
+SearchContext is the topmost interface in Selenium API which has two methods.
+I.	findElement() and 
+II.	findElements()
+
+3.	What is the WebDriver interface?
+
+Selenium WebDriver is an interface that defines a set of methods. However, implementation is provided by browser-specific classes. Some of the implementation classes. Some of the implementation classes are Chromedriver, firefox driver, safaridriver, androidDriver, IphoneDriver 
+
+
+4.	Can you name some of the WebDriver interface methods?
+SearchContext is the topmost interface in Selenium API which has two methods.
+I.	findElement() and 
+II.	findElements()
+selenium webDriver interface has many abstract methods like 
+get (string url)
+quit()
+close()
+gettittle()
+getwindowHandle()
+getwindowHandle()
+
+5.	What is a nested interface in selenium?
+An interface declared within another interface or class is known as a Nested interface.
+Nested interface rules
+•	must be defined as public access specifiers. If it is declared inside another interface. 
+•	Can be defined with any access specifiers, if it is declared inside any class
+6.	can you name a few nested interfaces in Selenium?
+An interface declared within another interface or class is known as a Nested interface. 
+Nested interfaces are static by default. There is no need to specify as static as they are static implicitly.
+
+7.	What is an option interface; can you name a few options interface methods?
+
+8.	What is a window interface, can you name a few window interface methods?
+
+
+9.	How to maximize a window
+Driver. Manage (). window (). maximize();
+
+10.	How to set the size of a window
+11.	How to get the position of the window
+12.	What is the timeout interface? Can you name a few methods?
+13.	How to write implicit time-out
+Driver.manage().timeout().implcitlyWait (duration. Of second(10));
+
+14.	How to set page load timeout
+15.	How to open the browser
+WebDriverManager.chromedriver().setup();
+Driver = new chromedriver ();
+
+16.	How to open the application
+WebDriverManager.chromedriver().setup();
+Driver = new chromedriver ();
+Driver get (https://www.facebook.com/);
+
+17.	How to the page title
+18.	How to get the current URL
+19.	How to close a browser
+Driver.close();
+
+20.	How to quit a browser
+Driver.quit();
+21.	What is the difference between close and quit command?
+22.	What is a navigation command?
+23.	How to go backward or forward?
+24.	How to refresh a browser
+25.	What is method chaining
